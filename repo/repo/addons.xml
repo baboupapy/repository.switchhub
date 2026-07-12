@@ -1,0 +1,30 @@
+<addons>
+    <addon id="plugin.program.kodi.migrate"
+           name="Kodi Migrate"
+           version="1.0.0"
+           provider-name="luc562">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="default.py">
+            <provides>executable</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="fr_FR">Sauvegarde et migration Kodi (simple ou complète)</summary>
+            <summary lang="en_GB">Backup and migrate Kodi (simple or full)</summary>
+            <description lang="fr_FR">
+                Addon universel de migration Kodi : sauvegarde/restauration de addon_data (simple)
+                ou de userdata + addons (complète). Compatible Android 11+ via SAF.
+            </description>
+            <description lang="en_GB">
+                Universal Kodi migration addon: backup/restore addon_data (simple)
+                or userdata + addons (full). Android 11+ compatible via SAF.
+            </description>
+            <platform>all</platform>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
+        </extension>
+    </addon>
+</addons>

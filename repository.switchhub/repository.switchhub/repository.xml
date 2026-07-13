@@ -1,0 +1,17 @@
+<addons>
+    <addon id="plugin.program.kodi.migrate"
+           version="1.0.0"
+           name="Kodi Migrate"
+           provider-name="baboupapy">
+        <extension point="xbmc.addon.metadata">
+            <summary>Migration, sauvegarde et restauration Kodi</summary>
+            <description>Outil de migration pour environnements Kodi</description>
+            <platform>all</platform>
+        </extension>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <zip>https://baboupapy.github.io/repository.switchhub/zips/plugin.program.kodi.migrate-1.0.0.zip</zip>
+    </addon>
+</addons>
